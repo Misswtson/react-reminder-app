@@ -1,7 +1,9 @@
+import { AppRouter } from "./router/AppRouter"
+
 export const ReminderApp = () => {
   return (
     <>
-    <h1>ReminderApp</h1>
+    <AppRouter/>
     </>
     
   )
