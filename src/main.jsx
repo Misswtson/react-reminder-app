@@ -7,5 +7,5 @@ import { ReminderApp } from './ReminderApp'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ReminderApp />
-  </StrictMode>,
+  </StrictMode>
 )
