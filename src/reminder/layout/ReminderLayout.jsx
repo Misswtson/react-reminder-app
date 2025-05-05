@@ -5,7 +5,7 @@ import { NavBar, SideBar } from '../components';
 
 const drawerWidth = 280;
 
-export const JournalLayout = ({ children }) => {
+export const ReminderLayout = ({ children }) => {
   return (
     <Box sx={{ display: 'flex' }}>
 
