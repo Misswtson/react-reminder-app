@@ -7,7 +7,7 @@ export const NoteView = () => {
   return (
     <Grid container direction='row' justifyContent='space-between' alignItems='center' sx={{ mb: 1 }}>
         <Grid item>
-            <Typography fontSize={ 39 } fontWeight='light' >August 28th, 2023</Typography>
+            <Typography fontSize={ 39 } fontWeight='light' >August 23th, 2025</Typography>
         </Grid>
         <Grid item>
             <Button color="primary" sx={{ padding: 2 }}>
