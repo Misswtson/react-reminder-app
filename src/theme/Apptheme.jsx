@@ -2,13 +2,14 @@
  // Using of higher order component to wrap the app with theme provider
 
 import { ThemeProvider } from "@emotion/react"
-import { CssBaseline } from "@mui/material/CssBaseline"
-import { blueTheme } from "./"
+import { CssBaseline } from "@mui/material"
+import { blueTheme } from "./blueTheme"
 
 
-export const Apptheme = ({ children }) => {
+
+export const AppTheme = ({ children }) => {
   return (
-   <ThemeProvider theme={ blueTheme}>
+   <ThemeProvider theme={ blueTheme }>
     <CssBaseline />
     
     { children }

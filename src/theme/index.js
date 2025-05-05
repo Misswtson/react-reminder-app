@@ -1,4 +1,4 @@
 // Barril Files
 
-export * from './Apptheme';
+export * from './AppTheme';
 export * from './blueTheme';
